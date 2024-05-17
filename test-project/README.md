@@ -1,36 +1,32 @@
-Live Preview [https://tradingeconomics-ten.vercel.app/](https://tradingeconomics-ten.vercel.app/) 
+This is my submission for the Trading Economics project task. I have developed a web application that provides three different ways to visualize and analyze economic data using the Trading Economics API.
 
-## Getting Started
+### Features:
 
-First, run the development server:
+1. GDP Comparison: Compare the GDP values between two selected countries over time, displayed in a line chart.
+2. Country-Indicator Chart: Select a country and an economic indicator from a list, and view a line chart plotting the historical data for the chosen combination.
+3. Country Snapshot Table: Choose a country and get a tabular overview of its latest economic indicators and values.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Technologies Used:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Next.js for building the React application
+- Chart.js for rendering interactive line charts
+- Trading Economics API for fetching economic data
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Live Preview:
+You can view a live preview of the project at the following URL:
+[https://tradingeconomics-ten.vercel.app/](https://tradingeconomics-ten.vercel.app/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Installation and Setup:
 
-## Learn More
+1. Clone this repository:` git clone https://github.com/your-username/tradingeconomics.git`
+2. Navigate to the project directory: `cd tradingeconomics/test-project`
+3. Create an `.env` file and add your Trading Economics API key: `NEXT_PUBLIC_TE_API_KEY=your_api_key_here`
+4. Install dependencies: `npm install`
+5. Start the development server: `npm run dev`
+6. Open http://localhost:3000 in your browser to view the application
 
-To learn more about Next.js, take a look at the following resources:
+### Notes:
+- The application is responsive and works well on different screen sizes.
+- loading states have been implemented for a better user experience.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Please feel free to review the code and provide any feedback or suggestions. I'm excited to discuss this project further and appreciate your consideration.
